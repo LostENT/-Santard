@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52441CE31C418CC800BA2652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52441CE21C418CC800BA2652 /* AppDelegate.swift */; };
+		52441CE51C418CC800BA2652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52441CE41C418CC800BA2652 /* ViewController.swift */; };
+		52441CE81C418CC800BA2652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52441CE61C418CC800BA2652 /* Main.storyboard */; };
+		52441CEA1C418CC800BA2652 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52441CE91C418CC800BA2652 /* Images.xcassets */; };
+		52441CED1C418CC800BA2652 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52441CEB1C418CC800BA2652 /* LaunchScreen.xib */; };
+		52441CF91C418CC800BA2652 /* SantaGayOmeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52441CF81C418CC800BA2652 /* SantaGayOmeterTests.swift */; };
+		52441D031C418D3D00BA2652 /* santaGAY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52441D021C418D3D00BA2652 /* santaGAY.jpg */; };
+		52441D051C42C39700BA2652 /* santaIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52441D041C42C39700BA2652 /* santaIcon.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52441CF31C418CC800BA2652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52441CD51C418CC800BA2652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52441CDC1C418CC800BA2652;
+			remoteInfo = SantaGayOmeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52441CDD1C418CC800BA2652 /* SantaGayOmeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SantaGayOmeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52441CE11C418CC800BA2652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52441CE21C418CC800BA2652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52441CE41C418CC800BA2652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52441CE71C418CC800BA2652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52441CE91C418CC800BA2652 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52441CEC1C418CC800BA2652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52441CF21C418CC800BA2652 /* SantaGayOmeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantaGayOmeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52441CF71C418CC800BA2652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52441CF81C418CC800BA2652 /* SantaGayOmeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaGayOmeterTests.swift; sourceTree = "<group>"; };
+		52441D021C418D3D00BA2652 /* santaGAY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santaGAY.jpg; sourceTree = "<group>"; };
+		52441D041C42C39700BA2652 /* santaIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santaIcon.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52441CDA1C418CC800BA2652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52441CEF1C418CC800BA2652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52441CD41C418CC800BA2652 = {
+			isa = PBXGroup;
+			children = (
+				52441CDF1C418CC800BA2652 /* SantaGayOmeter */,
+				52441CF51C418CC800BA2652 /* SantaGayOmeterTests */,
+				52441CDE1C418CC800BA2652 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52441CDE1C418CC800BA2652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52441CDD1C418CC800BA2652 /* SantaGayOmeter.app */,
+				52441CF21C418CC800BA2652 /* SantaGayOmeterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52441CDF1C418CC800BA2652 /* SantaGayOmeter */ = {
+			isa = PBXGroup;
+			children = (
+				52441CE21C418CC800BA2652 /* AppDelegate.swift */,
+				52441CE41C418CC800BA2652 /* ViewController.swift */,
+				52441CE61C418CC800BA2652 /* Main.storyboard */,
+				52441CE91C418CC800BA2652 /* Images.xcassets */,
+				52441CEB1C418CC800BA2652 /* LaunchScreen.xib */,
+				52441CE01C418CC800BA2652 /* Supporting Files */,
+			);
+			path = SantaGayOmeter;
+			sourceTree = "<group>";
+		};
+		52441CE01C418CC800BA2652 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52441D041C42C39700BA2652 /* santaIcon.jpeg */,
+				52441D021C418D3D00BA2652 /* santaGAY.jpg */,
+				52441CE11C418CC800BA2652 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52441CF51C418CC800BA2652 /* SantaGayOmeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				52441CF81C418CC800BA2652 /* SantaGayOmeterTests.swift */,
+				52441CF61C418CC800BA2652 /* Supporting Files */,
+			);
+			path = SantaGayOmeterTests;
+			sourceTree = "<group>";
+		};
+		52441CF61C418CC800BA2652 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52441CF71C418CC800BA2652 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52441CDC1C418CC800BA2652 /* SantaGayOmeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52441CFC1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "SantaGayOmeter" */;
+			buildPhases = (
+				52441CD91C418CC800BA2652 /* Sources */,
+				52441CDA1C418CC800BA2652 /* Frameworks */,
+				52441CDB1C418CC800BA2652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SantaGayOmeter;
+			productName = SantaGayOmeter;
+			productReference = 52441CDD1C418CC800BA2652 /* SantaGayOmeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52441CF11C418CC800BA2652 /* SantaGayOmeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52441CFF1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "SantaGayOmeterTests" */;
+			buildPhases = (
+				52441CEE1C418CC800BA2652 /* Sources */,
+				52441CEF1C418CC800BA2652 /* Frameworks */,
+				52441CF01C418CC800BA2652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52441CF41C418CC800BA2652 /* PBXTargetDependency */,
+			);
+			name = SantaGayOmeterTests;
+			productName = SantaGayOmeterTests;
+			productReference = 52441CF21C418CC800BA2652 /* SantaGayOmeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52441CD51C418CC800BA2652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = blackhat;
+				TargetAttributes = {
+					52441CDC1C418CC800BA2652 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					52441CF11C418CC800BA2652 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 52441CDC1C418CC800BA2652;
+					};
+				};
+			};
+			buildConfigurationList = 52441CD81C418CC800BA2652 /* Build configuration list for PBXProject "SantaGayOmeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52441CD41C418CC800BA2652;
+			productRefGroup = 52441CDE1C418CC800BA2652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52441CDC1C418CC800BA2652 /* SantaGayOmeter */,
+				52441CF11C418CC800BA2652 /* SantaGayOmeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52441CDB1C418CC800BA2652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52441CE81C418CC800BA2652 /* Main.storyboard in Resources */,
+				52441CED1C418CC800BA2652 /* LaunchScreen.xib in Resources */,
+				52441CEA1C418CC800BA2652 /* Images.xcassets in Resources */,
+				52441D051C42C39700BA2652 /* santaIcon.jpeg in Resources */,
+				52441D031C418D3D00BA2652 /* santaGAY.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52441CF01C418CC800BA2652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52441CD91C418CC800BA2652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52441CE51C418CC800BA2652 /* ViewController.swift in Sources */,
+				52441CE31C418CC800BA2652 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52441CEE1C418CC800BA2652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52441CF91C418CC800BA2652 /* SantaGayOmeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52441CF41C418CC800BA2652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52441CDC1C418CC800BA2652 /* SantaGayOmeter */;
+			targetProxy = 52441CF31C418CC800BA2652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52441CE61C418CC800BA2652 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52441CE71C418CC800BA2652 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52441CEB1C418CC800BA2652 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52441CEC1C418CC800BA2652 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52441CFA1C418CC800BA2652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52441CFB1C418CC800BA2652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52441CFD1C418CC800BA2652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SantaGayOmeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52441CFE1C418CC800BA2652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SantaGayOmeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52441D001C418CC800BA2652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SantaGayOmeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SantaGayOmeter.app/SantaGayOmeter";
+			};
+			name = Debug;
+		};
+		52441D011C418CC800BA2652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SantaGayOmeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SantaGayOmeter.app/SantaGayOmeter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52441CD81C418CC800BA2652 /* Build configuration list for PBXProject "SantaGayOmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52441CFA1C418CC800BA2652 /* Debug */,
+				52441CFB1C418CC800BA2652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52441CFC1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "SantaGayOmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52441CFD1C418CC800BA2652 /* Debug */,
+				52441CFE1C418CC800BA2652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52441CFF1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "SantaGayOmeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52441D001C418CC800BA2652 /* Debug */,
+				52441D011C418CC800BA2652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52441CD51C418CC800BA2652 /* Project object */;
+}
