@@ -15,6 +15,11 @@
 		52441CF91C418CC800BA2652 /* SantaGayOmeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52441CF81C418CC800BA2652 /* SantaGayOmeterTests.swift */; };
 		52441D031C418D3D00BA2652 /* santaGAY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52441D021C418D3D00BA2652 /* santaGAY.jpg */; };
 		52441D051C42C39700BA2652 /* santaIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52441D041C42C39700BA2652 /* santaIcon.jpeg */; };
+		524BA2A01C42EAC100870A87 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524BA29F1C42EAC100870A87 /* AudioToolbox.framework */; };
+		524BA2A21C42EBBB00870A87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524BA2A11C42EBBB00870A87 /* AVFoundation.framework */; };
+		524BA2A51C42EF6500870A87 /* Yes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 524BA2A31C42EF6500870A87 /* Yes.mp3 */; };
+		524BA2A61C42EF6500870A87 /* No.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 524BA2A41C42EF6500870A87 /* No.mp3 */; };
+		524BA2A81C42F2C800870A87 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524BA2A71C42F2C800870A87 /* SpriteKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		52441CF81C418CC800BA2652 /* SantaGayOmeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaGayOmeterTests.swift; sourceTree = "<group>"; };
 		52441D021C418D3D00BA2652 /* santaGAY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santaGAY.jpg; sourceTree = "<group>"; };
 		52441D041C42C39700BA2652 /* santaIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santaIcon.jpeg; sourceTree = "<group>"; };
+		524BA29F1C42EAC100870A87 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		524BA2A11C42EBBB00870A87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		524BA2A31C42EF6500870A87 /* Yes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Yes.mp3; path = ../../../../Desktop/Yes.mp3; sourceTree = "<group>"; };
+		524BA2A41C42EF6500870A87 /* No.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = No.mp3; path = ../../../../Desktop/No.mp3; sourceTree = "<group>"; };
+		524BA2A71C42F2C800870A87 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524BA2A81C42F2C800870A87 /* SpriteKit.framework in Frameworks */,
+				524BA2A21C42EBBB00870A87 /* AVFoundation.framework in Frameworks */,
+				524BA2A01C42EAC100870A87 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,9 @@
 		52441CD41C418CC800BA2652 = {
 			isa = PBXGroup;
 			children = (
+				524BA2A71C42F2C800870A87 /* SpriteKit.framework */,
+				524BA2A11C42EBBB00870A87 /* AVFoundation.framework */,
+				524BA29F1C42EAC100870A87 /* AudioToolbox.framework */,
 				52441CDF1C418CC800BA2652 /* SantaGayOmeter */,
 				52441CF51C418CC800BA2652 /* SantaGayOmeterTests */,
 				52441CDE1C418CC800BA2652 /* Products */,
@@ -94,6 +110,8 @@
 		52441CE01C418CC800BA2652 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				524BA2A31C42EF6500870A87 /* Yes.mp3 */,
+				524BA2A41C42EF6500870A87 /* No.mp3 */,
 				52441D041C42C39700BA2652 /* santaIcon.jpeg */,
 				52441D021C418D3D00BA2652 /* santaGAY.jpg */,
 				52441CE11C418CC800BA2652 /* Info.plist */,
@@ -198,9 +216,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524BA2A51C42EF6500870A87 /* Yes.mp3 in Resources */,
 				52441CE81C418CC800BA2652 /* Main.storyboard in Resources */,
 				52441CED1C418CC800BA2652 /* LaunchScreen.xib in Resources */,
 				52441CEA1C418CC800BA2652 /* Images.xcassets in Resources */,
+				524BA2A61C42EF6500870A87 /* No.mp3 in Resources */,
 				52441D051C42C39700BA2652 /* santaIcon.jpeg in Resources */,
 				52441D031C418D3D00BA2652 /* santaGAY.jpg in Resources */,
 			);
@@ -419,6 +439,7 @@
 				52441CFE1C418CC800BA2652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52441CFF1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "SantaGayOmeterTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +448,7 @@
 				52441D011C418CC800BA2652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

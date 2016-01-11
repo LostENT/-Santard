@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVFoundation
+
 
     class ViewController: UIViewController {
         
@@ -32,6 +34,8 @@ import UIKit
         
         @IBOutlet var noVideo: UIWebView!
         
+        
+        
         @IBAction func answerYes(sender: AnyObject) {
             back.hidden = false;
             question.hidden = true;
@@ -44,6 +48,8 @@ import UIKit
             
             pointCount += 1
             points.text = "\(pointCount)"
+          
+     
             
         }
         
@@ -59,6 +65,8 @@ import UIKit
             
             pointCount -= 1
             points.text = "\(pointCount)"
+            
+            
         }
         
         
@@ -76,7 +84,10 @@ import UIKit
         }
         
         override func viewDidLoad() {
+            
             super.viewDidLoad()
+            
+            
             // Do any additional setup after loading the view, typically from a nib.
             // Do any additional setup after loading the view, typically from a nib.
             
@@ -95,7 +106,7 @@ import UIKit
             self.yesVideo.loadHTMLString(Code as String, baseURL: nil)
             
             self.noVideo.loadHTMLString(Code2 as String, baseURL: nil)
-       
+    
             
             
         }
