@@ -17,9 +17,9 @@
 		52441D051C42C39700BA2652 /* santaIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52441D041C42C39700BA2652 /* santaIcon.jpeg */; };
 		524BA2A01C42EAC100870A87 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524BA29F1C42EAC100870A87 /* AudioToolbox.framework */; };
 		524BA2A21C42EBBB00870A87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524BA2A11C42EBBB00870A87 /* AVFoundation.framework */; };
-		524BA2A51C42EF6500870A87 /* Yes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 524BA2A31C42EF6500870A87 /* Yes.mp3 */; };
-		524BA2A61C42EF6500870A87 /* No.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 524BA2A41C42EF6500870A87 /* No.mp3 */; };
 		524BA2A81C42F2C800870A87 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524BA2A71C42F2C800870A87 /* SpriteKit.framework */; };
+		527C68041C44A23E0016CA6B /* yesPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 527C68031C44A23E0016CA6B /* yesPic.jpg */; };
+		527C68081C44A7120016CA6B /* NoPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 527C68071C44A7120016CA6B /* NoPic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,23 +33,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		52441CDD1C418CC800BA2652 /* SantaGayOmeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SantaGayOmeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52441CDD1C418CC800BA2652 /* Santa <3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Santa <3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52441CE11C418CC800BA2652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52441CE21C418CC800BA2652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52441CE41C418CC800BA2652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52441CE71C418CC800BA2652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52441CE91C418CC800BA2652 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		52441CEC1C418CC800BA2652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		52441CF21C418CC800BA2652 /* SantaGayOmeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantaGayOmeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52441CF21C418CC800BA2652 /* Santa <3.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Santa <3.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52441CF71C418CC800BA2652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52441CF81C418CC800BA2652 /* SantaGayOmeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaGayOmeterTests.swift; sourceTree = "<group>"; };
 		52441D021C418D3D00BA2652 /* santaGAY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santaGAY.jpg; sourceTree = "<group>"; };
 		52441D041C42C39700BA2652 /* santaIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santaIcon.jpeg; sourceTree = "<group>"; };
 		524BA29F1C42EAC100870A87 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		524BA2A11C42EBBB00870A87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		524BA2A31C42EF6500870A87 /* Yes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Yes.mp3; path = ../../../../Desktop/Yes.mp3; sourceTree = "<group>"; };
-		524BA2A41C42EF6500870A87 /* No.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = No.mp3; path = ../../../../Desktop/No.mp3; sourceTree = "<group>"; };
 		524BA2A71C42F2C800870A87 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		527C68031C44A23E0016CA6B /* yesPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yesPic.jpg; path = ../../../../Desktop/yesPic.jpg; sourceTree = "<group>"; };
+		527C68071C44A7120016CA6B /* NoPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoPic.png; path = ../../../../Desktop/NoPic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 		52441CDE1C418CC800BA2652 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52441CDD1C418CC800BA2652 /* SantaGayOmeter.app */,
-				52441CF21C418CC800BA2652 /* SantaGayOmeterTests.xctest */,
+				52441CDD1C418CC800BA2652 /* Santa <3.app */,
+				52441CF21C418CC800BA2652 /* Santa <3.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,8 +110,8 @@
 		52441CE01C418CC800BA2652 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				524BA2A31C42EF6500870A87 /* Yes.mp3 */,
-				524BA2A41C42EF6500870A87 /* No.mp3 */,
+				527C68071C44A7120016CA6B /* NoPic.png */,
+				527C68031C44A23E0016CA6B /* yesPic.jpg */,
 				52441D041C42C39700BA2652 /* santaIcon.jpeg */,
 				52441D021C418D3D00BA2652 /* santaGAY.jpg */,
 				52441CE11C418CC800BA2652 /* Info.plist */,
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52441CDC1C418CC800BA2652 /* SantaGayOmeter */ = {
+		52441CDC1C418CC800BA2652 /* Santa <3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52441CFC1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "SantaGayOmeter" */;
+			buildConfigurationList = 52441CFC1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "Santa <3" */;
 			buildPhases = (
 				52441CD91C418CC800BA2652 /* Sources */,
 				52441CDA1C418CC800BA2652 /* Frameworks */,
@@ -151,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = SantaGayOmeter;
+			name = "Santa <3";
 			productName = SantaGayOmeter;
-			productReference = 52441CDD1C418CC800BA2652 /* SantaGayOmeter.app */;
+			productReference = 52441CDD1C418CC800BA2652 /* Santa <3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		52441CF11C418CC800BA2652 /* SantaGayOmeterTests */ = {
+		52441CF11C418CC800BA2652 /* Santa <3Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52441CFF1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "SantaGayOmeterTests" */;
+			buildConfigurationList = 52441CFF1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "Santa <3Tests" */;
 			buildPhases = (
 				52441CEE1C418CC800BA2652 /* Sources */,
 				52441CEF1C418CC800BA2652 /* Frameworks */,
@@ -169,9 +169,9 @@
 			dependencies = (
 				52441CF41C418CC800BA2652 /* PBXTargetDependency */,
 			);
-			name = SantaGayOmeterTests;
+			name = "Santa <3Tests";
 			productName = SantaGayOmeterTests;
-			productReference = 52441CF21C418CC800BA2652 /* SantaGayOmeterTests.xctest */;
+			productReference = 52441CF21C418CC800BA2652 /* Santa <3.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -180,11 +180,14 @@
 		52441CD51C418CC800BA2652 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = blackhat;
 				TargetAttributes = {
 					52441CDC1C418CC800BA2652 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = AW92SY9JFE;
 					};
 					52441CF11C418CC800BA2652 = {
 						CreatedOnToolsVersion = 6.4;
@@ -192,7 +195,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52441CD81C418CC800BA2652 /* Build configuration list for PBXProject "SantaGayOmeter" */;
+			buildConfigurationList = 52441CD81C418CC800BA2652 /* Build configuration list for PBXProject "Santa <3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -205,8 +208,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52441CDC1C418CC800BA2652 /* SantaGayOmeter */,
-				52441CF11C418CC800BA2652 /* SantaGayOmeterTests */,
+				52441CDC1C418CC800BA2652 /* Santa <3 */,
+				52441CF11C418CC800BA2652 /* Santa <3Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,11 +219,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524BA2A51C42EF6500870A87 /* Yes.mp3 in Resources */,
 				52441CE81C418CC800BA2652 /* Main.storyboard in Resources */,
 				52441CED1C418CC800BA2652 /* LaunchScreen.xib in Resources */,
+				527C68041C44A23E0016CA6B /* yesPic.jpg in Resources */,
 				52441CEA1C418CC800BA2652 /* Images.xcassets in Resources */,
-				524BA2A61C42EF6500870A87 /* No.mp3 in Resources */,
+				527C68081C44A7120016CA6B /* NoPic.png in Resources */,
 				52441D051C42C39700BA2652 /* santaIcon.jpeg in Resources */,
 				52441D031C418D3D00BA2652 /* santaGAY.jpg in Resources */,
 			);
@@ -258,7 +261,7 @@
 /* Begin PBXTargetDependency section */
 		52441CF41C418CC800BA2652 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52441CDC1C418CC800BA2652 /* SantaGayOmeter */;
+			target = 52441CDC1C418CC800BA2652 /* Santa <3 */;
 			targetProxy = 52441CF31C418CC800BA2652 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -369,9 +372,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SantaGayOmeter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Santa <3";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -380,9 +386,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SantaGayOmeter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Santa <3";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -400,8 +409,8 @@
 				);
 				INFOPLIST_FILE = SantaGayOmeterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SantaGayOmeter.app/SantaGayOmeter";
+				PRODUCT_NAME = "Santa <3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Santa <3.app/Santa <3";
 			};
 			name = Debug;
 		};
@@ -415,15 +424,15 @@
 				);
 				INFOPLIST_FILE = SantaGayOmeterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SantaGayOmeter.app/SantaGayOmeter";
+				PRODUCT_NAME = "Santa <3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Santa <3.app/Santa <3";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52441CD81C418CC800BA2652 /* Build configuration list for PBXProject "SantaGayOmeter" */ = {
+		52441CD81C418CC800BA2652 /* Build configuration list for PBXProject "Santa <3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52441CFA1C418CC800BA2652 /* Debug */,
@@ -432,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52441CFC1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "SantaGayOmeter" */ = {
+		52441CFC1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "Santa <3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52441CFD1C418CC800BA2652 /* Debug */,
@@ -441,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52441CFF1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "SantaGayOmeterTests" */ = {
+		52441CFF1C418CC800BA2652 /* Build configuration list for PBXNativeTarget "Santa <3Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52441D001C418CC800BA2652 /* Debug */,

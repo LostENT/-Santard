@@ -26,6 +26,13 @@ import AVFoundation
         
         @IBOutlet var yes: UIButton!
         
+        @IBOutlet var testNo: UIButton!
+        
+        @IBOutlet var returnToSanta: UIButton!
+        
+        @IBOutlet var NoPic: UIImageView!
+        @IBOutlet var yesPic: UIImageView!
+        @IBOutlet var testYes: UIButton!
         @IBOutlet var no: UIButton!
         
         @IBOutlet var back: UIButton!
@@ -45,11 +52,14 @@ import AVFoundation
             yesNote.hidden = false;
             judgment.hidden = true;
             points.hidden = true;
+            testYes.hidden = false;
+            returnToSanta.hidden = false;
             
-            pointCount += 1
+            
+            
+            
+            pointCount +=  1
             points.text = "\(pointCount)"
-          
-     
             
         }
         
@@ -62,6 +72,7 @@ import AVFoundation
             noNote.hidden = false;
             judgment.hidden = true;
             points.hidden = true;
+            testNo.hidden = false;
             
             pointCount -= 1
             points.text = "\(pointCount)"
@@ -81,7 +92,50 @@ import AVFoundation
             noNote.hidden = true;
             judgment.hidden = false;
             points.hidden = false;
+            testYes.hidden = true;
+            testNo.hidden = true;
         }
+        
+       
+        @IBAction func returnToSanta(sender: AnyObject) {
+            
+            back.hidden = true;
+            question.hidden = false;
+            no.hidden = false;
+            yes.hidden=false;
+            noVideo.hidden = true;
+            yesVideo.hidden = true;
+            yesNote.hidden = true;
+            noNote.hidden = true;
+            judgment.hidden = false;
+            points.hidden = false;
+            testYes.hidden = true;
+            testNo.hidden = true;
+            yesPic.hidden = true;
+            NoPic.hidden = true;
+            returnToSanta.hidden = true;
+            
+            
+        }
+        @IBAction func testNo(sender: AnyObject) {
+            
+            NoPic.hidden = false;
+            returnToSanta.hidden = false;
+            pointCount -=  3
+            points.text = "\(pointCount)"
+        }
+        
+        @IBAction func testYes(sender: AnyObject) {
+            
+            yesPic.hidden = false;
+            returnToSanta.hidden = false;
+            
+            pointCount +=  3
+            points.text = "\(pointCount)"
+        }
+        
+      
+        
         
         override func viewDidLoad() {
             
@@ -91,9 +145,9 @@ import AVFoundation
             // Do any additional setup after loading the view, typically from a nib.
             // Do any additional setup after loading the view, typically from a nib.
             
-            var YouTubeLink:String = "http://www.youtube.com/embed/tJFa7Ca85WE"
+            let YouTubeLink:String = "https://www.youtube.com/embed/tJFa7Ca85WE"
             
-            var YouTubeLink2:String = "https://www.youtube.com/embed/4qjMZsxFuV0"
+            let YouTubeLink2:String = "https://www.youtube.com/embed/4qjMZsxFuV0"
             
             let width = 225
             let height = 110

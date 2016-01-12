@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52441CDC1C418CC800BA2652"
-               BuildableName = "SantaGayOmeter.app"
-               BlueprintName = "SantaGayOmeter"
-               ReferencedContainer = "container:SantaGayOmeter.xcodeproj">
+               BuildableName = "Santa &lt;3.app"
+               BlueprintName = "Santa &lt;3"
+               ReferencedContainer = "container:Santa &lt;3.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,27 +29,27 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52441CF11C418CC800BA2652"
-               BuildableName = "SantaGayOmeterTests.xctest"
-               BlueprintName = "SantaGayOmeterTests"
-               ReferencedContainer = "container:SantaGayOmeter.xcodeproj">
+               BuildableName = "Santa &lt;3.xctest"
+               BlueprintName = "Santa &lt;3Tests"
+               ReferencedContainer = "container:Santa &lt;3.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52441CF11C418CC800BA2652"
-               BuildableName = "SantaGayOmeterTests.xctest"
-               BlueprintName = "SantaGayOmeterTests"
-               ReferencedContainer = "container:SantaGayOmeter.xcodeproj">
+               BuildableName = "Santa &lt;3.xctest"
+               BlueprintName = "Santa &lt;3Tests"
+               ReferencedContainer = "container:Santa &lt;3.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,48 +57,51 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52441CDC1C418CC800BA2652"
-            BuildableName = "SantaGayOmeter.app"
-            BlueprintName = "SantaGayOmeter"
-            ReferencedContainer = "container:SantaGayOmeter.xcodeproj">
+            BuildableName = "Santa &lt;3.app"
+            BlueprintName = "Santa &lt;3"
+            ReferencedContainer = "container:Santa &lt;3.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52441CDC1C418CC800BA2652"
-            BuildableName = "SantaGayOmeter.app"
-            BlueprintName = "SantaGayOmeter"
-            ReferencedContainer = "container:SantaGayOmeter.xcodeproj">
+            BuildableName = "Santa &lt;3.app"
+            BlueprintName = "Santa &lt;3"
+            ReferencedContainer = "container:Santa &lt;3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52441CDC1C418CC800BA2652"
-            BuildableName = "SantaGayOmeter.app"
-            BlueprintName = "SantaGayOmeter"
-            ReferencedContainer = "container:SantaGayOmeter.xcodeproj">
+            BuildableName = "Santa &lt;3.app"
+            BlueprintName = "Santa &lt;3"
+            ReferencedContainer = "container:Santa &lt;3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

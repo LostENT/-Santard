@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SantaGayOmeter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Santa__3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -19,6 +20,20 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="santaGAY.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oku-d6-n8l">
                                 <rect key="frame" x="0.0" y="-89" width="428" height="825"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VzJ-Q3-DcO">
+                                <rect key="frame" x="63" y="463" width="249" height="74"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="HOW GAY SANTA                        THINKS YOU ARE:">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ARE YOU GAY?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEY-i4-3vs">
                                 <rect key="frame" x="98" y="243" width="178" height="72"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
@@ -95,31 +110,57 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VzJ-Q3-DcO">
-                                <rect key="frame" x="46" y="456" width="292" height="96"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="HOW GAY SANTA                        THINKS YOU ARE:">
-                                        <attributes>
-                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGM-JY-5bP">
-                                <rect key="frame" x="258" y="464" width="69" height="80"/>
+                                <rect key="frame" x="243" y="463" width="69" height="80"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsq-bh-5dL">
+                                <rect key="frame" x="243" y="28" width="127" height="56"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <state key="normal" title="TEST OF FAITH">
+                                    <color key="titleColor" red="1" green="0.85434172231315786" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="testYes:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Z5Q-pp-kAF"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Re-eO-QWa">
+                                <rect key="frame" x="243" y="28" width="127" height="56"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <state key="normal" title="TEST OF FAITH">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="testNo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kqG-pd-cSg"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cM5-4a-fZN">
+                                <rect key="frame" x="0.0" y="610" width="414" height="55"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <state key="normal" title="RETURN TO SANTA">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="returnToSanta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NfG-yY-hEK"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yesPic.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4ph-uG-AxQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="613"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NoPic.png" translatesAutoresizingMaskIntoConstraints="NO" id="gac-jU-8BS" userLabel="No Pic">
+                                <rect key="frame" x="0.0" y="-9" width="414" height="622"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="NoPic" destination="gac-jU-8BS" id="9hB-x5-yah"/>
                         <outlet property="back" destination="d6v-ux-xai" id="thT-TS-dfX"/>
                         <outlet property="judgment" destination="VzJ-Q3-DcO" id="sPD-0h-s5J"/>
                         <outlet property="no" destination="hVF-hE-mel" id="fKS-9k-XN3"/>
@@ -127,8 +168,12 @@
                         <outlet property="noVideo" destination="W5Y-a0-6rM" id="Una-ek-YKx"/>
                         <outlet property="points" destination="gGM-JY-5bP" id="ztN-PT-7ag"/>
                         <outlet property="question" destination="dEY-i4-3vs" id="yDB-T5-SOD"/>
+                        <outlet property="returnToSanta" destination="cM5-4a-fZN" id="3Zj-GK-vuv"/>
+                        <outlet property="testNo" destination="1Re-eO-QWa" id="z9q-fK-kEi"/>
+                        <outlet property="testYes" destination="Wsq-bh-5dL" id="Nhb-er-jL6"/>
                         <outlet property="yes" destination="nwz-2z-JbU" id="tDQ-tL-BGn"/>
                         <outlet property="yesNote" destination="X2c-Tk-ko7" id="r4Y-nc-11Q"/>
+                        <outlet property="yesPic" destination="4ph-uG-AxQ" id="3dz-Ki-FPu"/>
                         <outlet property="yesVideo" destination="otI-kb-a4B" id="4Zd-EO-Wth"/>
                     </connections>
                 </viewController>
@@ -138,6 +183,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="NoPic.png" width="630" height="840"/>
         <image name="santaGAY.jpg" width="269" height="390"/>
+        <image name="yesPic.jpg" width="440" height="666"/>
     </resources>
 </document>
