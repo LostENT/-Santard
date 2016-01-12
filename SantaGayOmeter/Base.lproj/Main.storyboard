@@ -63,17 +63,6 @@
                                     <action selector="answerNo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BhA-l3-o1S"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6v-ux-xai">
-                                <rect key="frame" x="147" y="154" width="79" height="41"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
-                                <state key="normal" title="BACK">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="back:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SWs-VZ-c2c"/>
-                                </connections>
-                            </button>
                             <webView hidden="YES" contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="otI-kb-a4B">
                                 <rect key="frame" x="72" y="243" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -161,7 +150,6 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="NoPic" destination="gac-jU-8BS" id="9hB-x5-yah"/>
-                        <outlet property="back" destination="d6v-ux-xai" id="thT-TS-dfX"/>
                         <outlet property="judgment" destination="VzJ-Q3-DcO" id="sPD-0h-s5J"/>
                         <outlet property="no" destination="hVF-hE-mel" id="fKS-9k-XN3"/>
                         <outlet property="noNote" destination="7gy-Xz-gdz" id="0Ng-bU-jWG"/>

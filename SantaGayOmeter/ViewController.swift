@@ -35,7 +35,7 @@ import AVFoundation
         @IBOutlet var testYes: UIButton!
         @IBOutlet var no: UIButton!
         
-        @IBOutlet var back: UIButton!
+        
         
         @IBOutlet var yesVideo: UIWebView!
         
@@ -44,7 +44,7 @@ import AVFoundation
         
         
         @IBAction func answerYes(sender: AnyObject) {
-            back.hidden = false;
+            
             question.hidden = true;
             no.hidden = true;
             yes.hidden=true;
@@ -64,7 +64,7 @@ import AVFoundation
         }
         
         @IBAction func answerNo(sender: AnyObject) {
-            back.hidden = false;
+            
             question.hidden = true;
             no.hidden = true;
             yes.hidden=true;
@@ -73,6 +73,7 @@ import AVFoundation
             judgment.hidden = true;
             points.hidden = true;
             testNo.hidden = false;
+            returnToSanta.hidden = false;
             
             pointCount -= 1
             points.text = "\(pointCount)"
@@ -82,7 +83,7 @@ import AVFoundation
         
         
         @IBAction func back(sender: AnyObject) {
-            back.hidden = true;
+            
             question.hidden = false;
             no.hidden = false;
             yes.hidden=false;
@@ -99,7 +100,7 @@ import AVFoundation
        
         @IBAction func returnToSanta(sender: AnyObject) {
             
-            back.hidden = true;
+            
             question.hidden = false;
             no.hidden = false;
             yes.hidden=false;
